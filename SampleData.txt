@@ -1,0 +1,39 @@
+
+SAMPLE TEST DATA
+------------------------------------------------------
+**ID not included as the tables Auto Increment**
+
+Table: destinations 
+
+|  DestinationName  |
+-----------------------------------
+|      Tokyo        |
+|      London       |
+|      Hong Kong    |
+|      Singapore    |
+|      New York     |
+
+
+
+Table: users 
+
+| user_name  |      user_email      |  user_pass   |
+------------------------------------------------------
+| User       |   User@hotmail.co.uk |  Password1   |
+
+
+
+Table: tbl_job
+
+|       jobName         | user_id  | DestinationID |
+------------------------------------------------------
+| Report for Singapore  |    1     |       1       |
+
+
+
+Table: tbl_upload
+
+|     DocTitle     |     docDesc     |       docFile          |         DocType        |  docSize  |  jobID  |
+----------------------------------------------------------------------------------------------------------------
+| FinancialReport  | Send this ASAP  |  FinancialReport.docx  |  application/vnd.open  |    711    |    1    |
+

@@ -1,0 +1,37 @@
+---------------------------------------------------------
+SQL STATEMENTS
+
+Populate the Destinations table with the statement below.
+---------------------------------------------------------
+
+
+
+INSERT INTO `destinations` (`DestinationID`, `DestinationName`) VALUES
+
+(1, 'London'),
+(2, 'Tokyo'),
+(3, 'Hong Kong'),
+(4, 'Singapore'),
+(5, 'New York');
+
+
+
+INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `user_pass`) VALUES
+(1, 'User', 'User@hotmail.co.uk', '$2y$10$47gTsxTzhyPSIY0K.xoHlOgUpAr5B1m/lvTCXR7qbO5R4fN5ELwsa');
+
+
+
+INSERT INTO `tbl_job` (`jobID`, `jobName`, `user_id`, `DestinationID`) VALUES
+(1, 'Report For Singapore', 1, 4);
+
+
+INSERT INTO `tbl_upload` (`docID`, `docTitle`, `docDesc`, `docFile`, `docType`, `docSize`, `jobID`) VALUES
+(1, 'FinancialReport', 'Send this ASAP', '71c3084a17ef02c812430a5ce8436edc', 'application/vnd.open', 711, 1);
+
+
+
+
+
+
+
+
